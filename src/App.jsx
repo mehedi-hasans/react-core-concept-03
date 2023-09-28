@@ -1,4 +1,5 @@
 import './App.css'
+import RefForm from './components/Ref Form/RefForm'
 import SimpleForm from './components/Simple Form/SimpleForm'
 import StatefulForm from './components/Statful Form/StatefulForm'
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <SimpleForm></SimpleForm>
       <p>Stateful Form</p>
       <StatefulForm></StatefulForm>
+      <p>Ref Form</p>
+      <RefForm></RefForm>
       
     </>
   )
